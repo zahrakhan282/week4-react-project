@@ -9,6 +9,21 @@
 .App h1 {
   font-size: 60px;
 }
+
+small {
+  color: #5d5d5e;
+  display: block;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 11px;
+  line-height: 10px;
+  margin-top: 0;
+  text-align: center;
+}
+
+small a:hover {
+  color: blue;
+}
+
 .Weather {
   background: radial-gradient(
     263px at 100.2% 3%,
@@ -29,6 +44,7 @@
 .Weather .weather-forecast-temperature {
   font-size: 13px;
 }
+
 ul {
   margin: 0px 0px 0px 0px;
   padding: 0px 12px 0px 12px;
@@ -44,14 +60,4 @@ li {
 }
 li:first-letter {
   text-transform: capitalize;
-}
-
-small {
-  color: #5d5d5e;
-  display: block;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 11px;
-  line-height: 10px;
-  margin-top: 0;
-  text-align: center;
 }
